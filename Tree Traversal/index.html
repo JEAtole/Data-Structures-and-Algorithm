@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Tree Traversal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <h3>Tree Traversal</h3>
+            <p>Jhan Ellen O. Atole <br>
+                2-BSCS-Split
+            </p>
+            <div class="smol_border">
+                <p>
+                  Traversal Order:
+                </p>
+                <div class="answer"></div>
+            </div>
+            <button onclick="traversalAnimation('preOrder')">Pre-order Traversal</button>
+            <button onclick="traversalAnimation('inOrder')">In-order Traversal</button>
+            <button onclick="traversalAnimation('postOrder')">Post-order Traversal</button>
+        </div>
+        <div class="border">
+            <div class="tree"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
